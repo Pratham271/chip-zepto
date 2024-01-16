@@ -1,0 +1,94 @@
+
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+* {
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+}
+.tags-input {
+  
+    background-color: #eee;
+    /* box-shadow: 0px 0px 8px #ddd; */
+    border: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 2.5rem;
+    width: 100%;
+    padding: 0 15px;
+    /* border: 1px solid #d6d8da; */
+    /* border-radius: 10px; */
+  }
+  .tags-input:focus-within {
+    border: none;
+  }
+  .tags-input input{
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+  }
+  .tags-input input:focus {
+    outline: transparent;
+  }
+
+
+#tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 8px 0 0 0;
+  }
+  
+  .tag {
+    width: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #696969;
+    padding: 0 8px;
+    font-size: 14px;
+    list-style: none;
+    border-radius: 16px;
+    margin: 0 8px 8px 0;
+    background: #E0E0E0;
+  }
+  .tag .tag-title {
+    margin-top: 3px;
+    margin-left: 3px;
+  }
+ 
+  .tag .tag-close-icon {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 18px;
+    margin-left: 8px;
+    color: #696969;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+  }
+
+  .tags-input img{
+    height: 20px;
+    width: 20px;
+  }
+  
+  .tag-highlighted {
+    background-color: #ffeeba; 
+    color: #856404; 
+   
+  }
